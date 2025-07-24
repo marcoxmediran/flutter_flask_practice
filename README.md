@@ -6,6 +6,7 @@ A simple note taking mobile application
 
 - Flutter
 - Flask
+- MySQL
 
 ## Project Setup
 
@@ -16,7 +17,9 @@ git clone https://github.com:marcoxmediran/flutter_flask_practice.git
 cd flutter_flask_practice/
 ```
 
-2. Install python packages and run the Flask REST API
+2. Run a MySQL server, and create database as specified by [Flask App](https://github.com/marcoxmediran/flutter_flask_practice/blob/main/api/app.py)
+
+3. Install python packages and run the Flask REST API
 
 ```bash
 cd api/
@@ -25,7 +28,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Navigate back to the project root directory, and run the Flutter application on an emulator
+4. Navigate back to the project root directory, and run the Flutter application on an emulator
 
 ```bash
 cd notes_app/
